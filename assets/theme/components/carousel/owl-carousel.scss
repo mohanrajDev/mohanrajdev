@@ -1,0 +1,23 @@
+.left-arrow,
+.right-arrow {
+  font-size: 28px;
+  cursor: pointer;
+}
+
+.owl-carousel.owl-theme.owl-loaded.owl-responsive {
+  .owl-nav.ng-star-inserted {
+    position: absolute;
+    margin-top: 10px;
+    top: 50%;
+    text-align: center;
+    -webkit-tap-highlight-color: transparent;
+
+    .owl-prev {
+      background-color: red;
+    }
+
+    .owl-next {
+      background: red;
+    }
+  }
+}
