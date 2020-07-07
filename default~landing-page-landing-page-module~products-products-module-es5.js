@@ -9627,15 +9627,15 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony import */
 
 
-    var _angular_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
-    /*! @angular/router */
-    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
+    var ng_zorro_antd_card__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(
+    /*! ng-zorro-antd/card */
+    "./node_modules/ng-zorro-antd/__ivy_ngcc__/fesm2015/ng-zorro-antd-card.js");
     /* harmony import */
 
 
-    var ng_zorro_antd_card__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
-    /*! ng-zorro-antd/card */
-    "./node_modules/ng-zorro-antd/__ivy_ngcc__/fesm2015/ng-zorro-antd-card.js");
+    var _angular_router__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(
+    /*! @angular/router */
+    "./node_modules/@angular/router/__ivy_ngcc__/fesm2015/router.js");
     /* harmony import */
 
 
@@ -9759,12 +9759,12 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
       },
       decls: 11,
       vars: 10,
-      consts: [[3, "routerLink"], ["nzHoverable", "", 3, "nzCover"], [1, "card-body"], ["coverTemplate", ""], [3, "alt", "src"], [4, "ngIf", "ngIfElse"], ["elseTemplate", ""], ["nz-icon", "", "nzType", "heart", "nzTheme", "fill", 1, "wishlist", "filled", 3, "click"], ["nz-icon", "", "nzType", "heart", "nzTheme", "outline", 1, "wishlist", 3, "click"]],
+      consts: [["nzHoverable", "", 3, "nzCover"], [3, "routerLink"], [1, "card-body"], ["coverTemplate", ""], [3, "alt", "src"], [4, "ngIf", "ngIfElse"], ["elseTemplate", ""], ["nz-icon", "", "nzType", "heart", "nzTheme", "fill", 1, "wishlist", "filled", 3, "click"], ["nz-icon", "", "nzType", "heart", "nzTheme", "outline", 1, "wishlist", 3, "click"]],
       template: function ProductItemComponent_Template(rf, ctx) {
         if (rf & 1) {
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "a", 0);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "nz-card", 0);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "nz-card", 1);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 1);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
 
@@ -9788,19 +9788,19 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, ProductItemComponent_ng_template_9_Template, 5, 4, "ng-template", null, 3, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
-
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](9, ProductItemComponent_ng_template_9_Template, 5, 4, "ng-template", null, 3, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplateRefExtractor"]);
         }
 
         if (rf & 2) {
           var _r0 = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵreference"](10);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](9, _c0));
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("nzCover", _r0);
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
 
-          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("nzCover", _r0);
+          _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("routerLink", _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpureFunction0"](9, _c0));
 
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
@@ -9811,7 +9811,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵpipeBind2"](8, 6, ctx.product.price, "INR"));
         }
       },
-      directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], ng_zorro_antd_card__WEBPACK_IMPORTED_MODULE_2__["NzCardComponent"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], ng_zorro_antd_icon__WEBPACK_IMPORTED_MODULE_4__["NzIconDirective"], ng_zorro_antd_core_transition_patch__WEBPACK_IMPORTED_MODULE_5__["ɵNzTransitionPatchDirective"]],
+      directives: [ng_zorro_antd_card__WEBPACK_IMPORTED_MODULE_1__["NzCardComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgIf"], ng_zorro_antd_icon__WEBPACK_IMPORTED_MODULE_4__["NzIconDirective"], ng_zorro_antd_core_transition_patch__WEBPACK_IMPORTED_MODULE_5__["ɵNzTransitionPatchDirective"]],
       pipes: [_angular_common__WEBPACK_IMPORTED_MODULE_3__["TitleCasePipe"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["CurrencyPipe"]],
       styles: [".ant-card[_ngcontent-%COMP%] {\n  border-radius: 10px;\n}\n.ant-card[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  width: 95%;\n  margin: 0 auto;\n  border-radius: 10px 10px 0 0;\n}\n.ant-card[_ngcontent-%COMP%]   .card-body[_ngcontent-%COMP%] {\n  height: 100px;\n}\n.ant-card[_ngcontent-%COMP%]   .card-body[_ngcontent-%COMP%]   h4[_ngcontent-%COMP%] {\n  text-transform: capitalize;\n  font-size: 14px;\n  font-weight: 500;\n  color: #263646;\n}\n.ant-card[_ngcontent-%COMP%]   .card-body[_ngcontent-%COMP%]   strong[_ngcontent-%COMP%] {\n  color: #00a8cc;\n}\n.ant-card[_ngcontent-%COMP%]   .wishlist[_ngcontent-%COMP%] {\n  position: absolute;\n  top: 20px;\n  right: 20px;\n  font-size: 20px;\n}\n.ant-card[_ngcontent-%COMP%]   .filled[_ngcontent-%COMP%] {\n  color: #ff4d4f;\n  -webkit-animation: bounceIn;\n          animation: bounceIn;\n  -webkit-animation-duration: 2s;\n          animation-duration: 2s;\n}\n.ant-card[_ngcontent-%COMP%]:hover {\n  color: #263646;\n  box-shadow: none;\n}\n.ant-card[_ngcontent-%COMP%]:hover   img[_ngcontent-%COMP%] {\n  -webkit-animation: pulse;\n          animation: pulse;\n  -webkit-animation-duration: 1s;\n          animation-duration: 1s;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi92YXIvd3d3L2h0bWwvbWFubmFyL21hbm5hci1hcHAvc3JjL2FwcC9jb21wb25lbnRzL3Byb2R1Y3QtaXRlbS9wcm9kdWN0LWl0ZW0uY29tcG9uZW50LnNjc3MiLCJzcmMvYXBwL2NvbXBvbmVudHMvcHJvZHVjdC1pdGVtL3Byb2R1Y3QtaXRlbS5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUVFLG1CQUFBO0FDQUY7QURFRTtFQUNFLFVBQUE7RUFDQSxjQUFBO0VBQ0EsNEJBQUE7QUNBSjtBREdFO0VBQ0UsYUFBQTtBQ0RKO0FER0k7RUFDRSwwQkFBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLGNBQUE7QUNETjtBREtJO0VBQ0UsY0FBQTtBQ0hOO0FET0U7RUFDRSxrQkFBQTtFQUNBLFNBQUE7RUFDQSxXQUFBO0VBQ0EsZUFBQTtBQ0xKO0FEUUU7RUFDRSxjQUFBO0VBQ0EsMkJBQUE7VUFBQSxtQkFBQTtFQUNBLDhCQUFBO1VBQUEsc0JBQUE7QUNOSjtBRFVBO0VBRUUsY0FBQTtFQUNBLGdCQUFBO0FDUkY7QURVRTtFQUNFLHdCQUFBO1VBQUEsZ0JBQUE7RUFDQSw4QkFBQTtVQUFBLHNCQUFBO0FDUkoiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3Byb2R1Y3QtaXRlbS9wcm9kdWN0LWl0ZW0uY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuYW50LWNhcmQge1xuICAvLyBib3JkZXI6IG5vbmU7XG4gIGJvcmRlci1yYWRpdXM6IDEwcHg7XG5cbiAgaW1nIHtcbiAgICB3aWR0aDogOTUlO1xuICAgIG1hcmdpbjogMCBhdXRvO1xuICAgIGJvcmRlci1yYWRpdXM6IDEwcHggMTBweCAwIDA7XG4gIH1cblxuICAuY2FyZC1ib2R5IHtcbiAgICBoZWlnaHQ6IDEwMHB4O1xuXG4gICAgaDQge1xuICAgICAgdGV4dC10cmFuc2Zvcm06IGNhcGl0YWxpemU7XG4gICAgICBmb250LXNpemU6IDE0cHg7XG4gICAgICBmb250LXdlaWdodDogNTAwO1xuICAgICAgY29sb3I6ICMyNjM2NDY7XG4gICAgICAvLyBmb250LWZhbWlseTogcnViaWssIGFyaWFsO1xuICAgIH1cblxuICAgIHN0cm9uZyB7XG4gICAgICBjb2xvcjogIzAwYThjYztcbiAgICB9XG4gIH1cblxuICAud2lzaGxpc3Qge1xuICAgIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgICB0b3A6IDIwcHg7XG4gICAgcmlnaHQ6IDIwcHg7XG4gICAgZm9udC1zaXplOiAyMHB4O1xuICB9XG5cbiAgLmZpbGxlZCB7XG4gICAgY29sb3I6ICNmZjRkNGY7XG4gICAgYW5pbWF0aW9uOiBib3VuY2VJbjtcbiAgICBhbmltYXRpb24tZHVyYXRpb246IDJzO1xuICB9XG59XG5cbi5hbnQtY2FyZDpob3ZlciB7XG4gIC8vIGJvcmRlcjogMXB4ICNmMmYyZjIgc29saWQ7XG4gIGNvbG9yOiAjMjYzNjQ2O1xuICBib3gtc2hhZG93OiBub25lO1xuXG4gIGltZyB7XG4gICAgYW5pbWF0aW9uOiBwdWxzZTtcbiAgICBhbmltYXRpb24tZHVyYXRpb246IDFzO1xuICB9XG59XG4iLCIuYW50LWNhcmQge1xuICBib3JkZXItcmFkaXVzOiAxMHB4O1xufVxuLmFudC1jYXJkIGltZyB7XG4gIHdpZHRoOiA5NSU7XG4gIG1hcmdpbjogMCBhdXRvO1xuICBib3JkZXItcmFkaXVzOiAxMHB4IDEwcHggMCAwO1xufVxuLmFudC1jYXJkIC5jYXJkLWJvZHkge1xuICBoZWlnaHQ6IDEwMHB4O1xufVxuLmFudC1jYXJkIC5jYXJkLWJvZHkgaDQge1xuICB0ZXh0LXRyYW5zZm9ybTogY2FwaXRhbGl6ZTtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBmb250LXdlaWdodDogNTAwO1xuICBjb2xvcjogIzI2MzY0Njtcbn1cbi5hbnQtY2FyZCAuY2FyZC1ib2R5IHN0cm9uZyB7XG4gIGNvbG9yOiAjMDBhOGNjO1xufVxuLmFudC1jYXJkIC53aXNobGlzdCB7XG4gIHBvc2l0aW9uOiBhYnNvbHV0ZTtcbiAgdG9wOiAyMHB4O1xuICByaWdodDogMjBweDtcbiAgZm9udC1zaXplOiAyMHB4O1xufVxuLmFudC1jYXJkIC5maWxsZWQge1xuICBjb2xvcjogI2ZmNGQ0ZjtcbiAgYW5pbWF0aW9uOiBib3VuY2VJbjtcbiAgYW5pbWF0aW9uLWR1cmF0aW9uOiAycztcbn1cblxuLmFudC1jYXJkOmhvdmVyIHtcbiAgY29sb3I6ICMyNjM2NDY7XG4gIGJveC1zaGFkb3c6IG5vbmU7XG59XG4uYW50LWNhcmQ6aG92ZXIgaW1nIHtcbiAgYW5pbWF0aW9uOiBwdWxzZTtcbiAgYW5pbWF0aW9uLWR1cmF0aW9uOiAxcztcbn0iXX0= */"]
     });
